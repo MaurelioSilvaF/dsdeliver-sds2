@@ -1,4 +1,3 @@
-import { OpenSans_700Bold } from '@expo-google-fonts/open-sans';
 import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import { StyleSheet, Text, View, Image } from 'react-native';
@@ -8,7 +7,7 @@ function Header() {
 
   const navigation = useNavigation();
 
-    const handleOnPress = () => {
+  const handleOnPress = () => {
         navigation.navigate('Home');
     }
     
