@@ -36,7 +36,8 @@ function OrderDetails({ route } : Props) {
     }
 
     const handleNavigate = () => {
-        Linking.openURL(`https://www.google.com/maps/dir/?api=1&travelmode=driving&dir_action=navigate&destination=${order.latitude},${order.longitude}`);
+        Linking.openURL(
+            `https://www.google.com/maps/dir/?api=1&travelmode=driving&dir_action=navigate&destination=${order.latitude},${order.longitude}`);
     }
     
   return (

@@ -4,7 +4,8 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Routes from './Routes';
-import Header from './src/Header';
+import 'intl';
+import 'intl/locale-data/jsonp/pt';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
